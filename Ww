@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy New Year!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Pacifico', cursive;
+      background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 50px 20px;
+    }
+    h1 {
+      font-size: 3rem;
+      animation: fadeIn 3s;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      animation: fadeIn 5s;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 30px 0;
+    }
+    .gallery img {
+      width: 200px;
+      height: 200px;
+      margin: 10px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+    footer {
+      padding: 20px;
+      font-size: 1rem;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Happy New Year, My Love!</h1>
+    <p>2024 will be our best year yet 💖</p>
+  </header>
+
+  <section class="gallery">
+    <img src="photo1.jpg" alt="Memory 1">
+    <img src="photo2.jpg" alt="Memory 2">
+    <img src="photo3.jpg" alt="Memory 3">
+    <img src="photo4.jpg" alt="Memory 4">
+  </section>
+
+  <footer>
+    <p>You are the best thing that ever happened to me. Here's to more beautiful moments together! ❤️</p>
+  </footer>
+</body>
+</html>
